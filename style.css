@@ -1,3 +1,25 @@
-#heading{
- font-size: ;   
+body {
+  background-color: rgb(68 68 219);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 5rem;
+}
+p {
+  font-size: 4rem;
+}
+#field {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 11rem;
 }
