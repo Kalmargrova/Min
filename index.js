@@ -2,7 +2,7 @@ function myFahrenheit() {
   document.getElementById("celsius").disabled = false;
   let num = document.getElementById("text-field").value;
   let numtwo = parseInt(num);
-  numtwo = (numtwo - 32) * 0.5556;
+  numtwo = (numtwo - 32) * 0.6;
   document.getElementById("answer").innerHTML = numtwo +" C";
   document.getElementById("fahrenheit").disabled = true;
 }
