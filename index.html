@@ -4,23 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Card</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
   </head>
-  
   <body>
-    <div>
-      <h1 id="heading">Converter</h1>
-      <p>Convert to Fahrenheit or Celsius</p>
-      <p id="answer">Answer</p>
+    <h2>Business Card Maker</h2>
+    <div class="container">
+      <div class="left-box">
+        <h3>Edit</h3>
+        <form action="">
+          <label for="companyName">Company Name: </label>
+          <input type="text" /><br />
+          <label for="companyMessage">Company Message:</label>
+          <input type="text" /><br />
+          <label for="backgroundColor">Background Color:</label>
+          <input type="color" name="" id="" /><br />
+          <label for="textColor">Text Color:</label>
+          <input type="color" name="" id="" /><br />
+          <label for="textAlign">Text Align</label>
+          <input type="button" value="Left">
+          <input type="button" value="Center">
+          <input type="button" value="Right"><br>
+          <label for="yourName">Your Name</label>
+          <input type="text"><br>
+          <label for="jobTitle">Job Title</label>
+          <input type="text"><br>
+          <label for="email">Email</label>
+          <input type="text" name="" id=""><br>
+          <label for="telephoneNumber">Telephone Number</label>
+          <input type="text"><br>
+          <input type="button" value="Submit">
+          <input type="button" value="Clear">
+        </form>
+      </div>
+
+      <div class="right-box">
+        <h3>Result</h3>
+      </div>
     </div>
-    <input type="number" id="text-field" value="0" />
-    <div id="field">
-      
-      <button type="button" id="fahrenheit" onclick="myFahrenheit()" >Fahrenheit</button>
-      <button type="button" id="celsius" onclick="myCelsius()">Celsius</button>
-    </div>
-    <button type="button" id="reset" onclick="myReset()">Reset</button>
-    <script src="index.js"></script>
   </body>
 </html>
